@@ -1,0 +1,38 @@
+[
+    {
+        "img": "./images/icon-facebook.svg",
+        "year":"1987",
+        "color":"hsl(208, 92%, 53%)",
+        "comment":"12 Today",
+        "username":"@nathanf",
+        "typeOfFan":"FOLLOWERS",
+        "isUp":true
+    },
+    {
+        "img": "./images/icon-twitter.svg",
+        "year":"1044",
+        "color":"hsl(203, 89%, 53%)",
+        "comment":"99 Today",
+        "username":"@nathanf",
+        "typeOfFan":"FOLLOWERS",
+        "isUp":true
+    },
+    {
+        "img": "./images/icon-instagram.svg",
+        "year":"11k",
+        "color":"linear-gradient(to right,hsl(37, 97%, 70%),hsl(329, 70%, 58%))",
+        "comment":"1099 Today",
+        "username":"@realnathanf",
+        "typeOfFan":"FOLLOWERS",
+        "isUp":true
+    },
+    {
+        "img": "./images/icon-youtube.svg",
+        "year":"8239",
+        "color":"hsl(348, 97%, 39%)",
+        "comment":"144 Today",
+        "username":"Nathan F.",
+        "typeOfFan":"SUBSCRIBERS",
+        "isUp":false
+    }
+]

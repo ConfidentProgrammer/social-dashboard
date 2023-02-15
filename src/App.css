@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.container {
+  width: 100%;
+
+  padding:0 2rem 0 2rem;
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-weight:700;
+  font-size: 1.4rem;
+  letter-spacing: .5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title-container{
+  padding-top:1rem;
+}
+.total-followers {
+  margin-top: -0.9rem;
+  font-size: .9rem;
+  font-weight: 400;
+  letter-spacing: .5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+hr {
+  width: 20rem;
+  background-color: hsl(228, 34%, 66%);
+}
+.dark-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+ 
+  justify-content: space-between;
+}
+.dark-title {
+  padding-top: .6rem;
+  font-weight: 700;
+}
+
+.toggle-para {
+  padding: 0;
+   background: linear-gradient( hsl(210, 78%, 56%), hsl(146, 68%, 55%) ); 
+  height: 1.2rem;
+  width: 2.4rem;
+  padding: 3px;
+  position: relative;
+  border-radius: 25px ;
+}
+.toggle-circle:focus {
+}
+
+.big-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
